@@ -1,0 +1,1 @@
+Sales invoices are saved in this directory.

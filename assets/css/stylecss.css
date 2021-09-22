@@ -1,0 +1,14 @@
+.select2-container--default .select2-selection--single {
+	border-color: #ced4da;
+	height: 39px !important;
+	/*background-color: #546e7a;
+	border-color: transparent;*/
+}
+
+.select2-selection__arrow {
+	margin-top: 5px;
+}
+
+div#datepicker>input.input-sm.form-control.search-input-select2.searchDateFrom {
+    margin-left: 5px;
+}
