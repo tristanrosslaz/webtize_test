@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 //when you upload it to live server change the base_url
 
-$config['base_url'] = 'http://localhost/webtize_test/';
+$config['base_url'] = 'https://webtize-test.herokuapp.com/';
  
 
 /*
