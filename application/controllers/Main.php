@@ -19,12 +19,6 @@ class Main extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 
-	public function __construct(){
-		parent::__construct();
-		$this->load->model('model');
-	}
-
-
 	public function index()
 	{
 		
