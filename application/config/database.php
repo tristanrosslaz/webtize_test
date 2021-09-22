@@ -70,15 +70,40 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
 */
+// $active_group = 'default';
+// $query_builder = TRUE;
+// //for pdo
+// $db['default'] = array(
+//     'dsn'      => 'mysql:host=localhost;dbname=webtize_phptestdb', //dbname is name of your database
+//     'hostname' => '', //name of your host
+//     'username' => 'root',
+//     'password' => '',
+//     'database' => 'webtize_phptestdb',
+//     'dbdriver' => 'pdo',
+//     'dbprefix' => '',
+//     'pconnect' => FALSE,
+//     'db_debug' => TRUE,
+//     'cache_on' => FALSE,
+//     'cachedir' => '',
+//     'char_set' => 'utf8',
+//     'dbcollat' => 'utf8_general_ci',
+//     'swap_pre' => '',
+//     'encrypt'  => FALSE,
+//     'compress' => FALSE,
+//     'stricton' => FALSE,
+//     'failover' => array(),
+//     'save_queries' => TRUE
+// );
+
 $active_group = 'default';
 $query_builder = TRUE;
-//for pdo
+
 $db['default'] = array(
-    'dsn'      => 'mysql:host=localhost;dbname=webtize_phptestdb', //dbname is name of your database
-    'hostname' => '', //name of your host
+    'dsn'      => 'mysql:host=localhost;dbname=', //dbname is name of your database
+    'hostname' => 'localhost', //name of your host
     'username' => 'root',
     'password' => '',
-    'database' => 'webtize_phptestdb',
+    'database' => '',
     'dbdriver' => 'pdo',
     'dbprefix' => '',
     'pconnect' => FALSE,
